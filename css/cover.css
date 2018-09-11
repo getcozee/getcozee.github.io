@@ -39,7 +39,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 60em;
 }
 
 
@@ -91,16 +91,62 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  margin: auto;
+  width: 80%;
 }
 .cover .btn-lg {
-  padding: .75rem 1.25rem;
+  padding: .75rem 1.75rem;
   font-weight: 700;
 }
+.cover-image {
+    background-size: cover !important;
+    background-repeat: no-repeat, repeat !important;
+}
 
+.cover-heading {
+  font-size: 3.0rem;
+}
+
+.cover .lead {
+  font-size: 1.75rem;
+}
+
+/*
+ * Modal
+ */
+
+.modal-content {
+  background-color: #333;
+}
+
+.modal-header {
+  border-bottom: 1px solid #282828;
+}
+
+.modal-footer {
+  border-top: 1px solid #282828;
+}
+
+.close {
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+}
+
+.mylink {
+  color: #61ce97;
+}
+
+.mylink:hover {
+  color: #1c8851;
+}
 
 /*
  * Footer
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+.mastfoot .inner p{
+  color: #eee;
 }
