@@ -2,7 +2,7 @@
 
 Just a simple landing page.
 
-![Cozee Website Cover][website_cover.png]
+![Cozee Website Cover](website_cover.png)
 
 # Licence 
 
